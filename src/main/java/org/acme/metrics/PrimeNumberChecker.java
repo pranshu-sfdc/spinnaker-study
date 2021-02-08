@@ -24,6 +24,9 @@ public class PrimeNumberChecker {
 
         System.out.println("What?" + number);
 
+        if (number == 0) {
+            return "Hello. Zero isn't a natural number, cannot be prime.";
+        }
         if (number < 1) {
             return "Only natural numbers can be prime numbers.";
         }
